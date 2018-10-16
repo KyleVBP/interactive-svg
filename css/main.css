@@ -32,20 +32,20 @@
 
 }
 
-.left-ear {
+#left-ear {
   transform: translateY(0);
   transition: all .5s linear;
 }
 
-.right-ear {
+#right-ear {
   transform: translateY(0);
   transition: all .5s linear;
 }
 
-.bear:hover .left-ear {
+.bear:hover #left-ear {
   transform: translateY(-10px);
 }
 
-.bear:hover .right-ear {
+.bear:hover #right-ear {
   transform: translateY(-10px);
 }
