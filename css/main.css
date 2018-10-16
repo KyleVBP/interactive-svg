@@ -1,0 +1,49 @@
+.bear {
+  transition: all 3 linear;
+}
+
+#left-eye {
+  transform: translateX(0);
+  animation: eye-move 3s infinite linear;
+}
+
+#right-eye {
+  transform: translateX(0);
+  animation: eye-move 3s infinite linear;
+}
+
+@keyframes eye-move {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
+
+.bear:hover #nose {
+
+}
+
+.bear:hover #left-ear {
+
+}
+
+.bear:hover #right-ear {
+
+}
